@@ -40,20 +40,20 @@
           <div class="chip brown lighten-2 white-text"></div>
           <div class="chip brown lighten-2 white-text"></div>
         </li>
-        <li><a href="#" class="reset-cookie">Cookie削除</a></li>
-        <li><a href="#history">更新履歴</a></li>
-        <li><a href="#disclaimer">免責事項</a></li>
-        <li><a href="#contact">問い合わせ</a></li>
+        <li><a class="nav__reset-cookie"></a></li>
+        <li><a href="#history" class="nav__history"></a></li>
+        <li><a href="#disclaimer" class="nav__disclaimer"></a></li>
+        <li><a href="#contact" class="nav__contact"></a></li>
       </ul>
       <ul class="side-nav" id="nav-mobile">
         <li>
           <div class="chip brown lighten-2 white-text"></div>
           <div class="chip brown lighten-2 white-text"></div>
         </li>
-        <li><a href="#" class="reset-cookie">Cookie削除</a></li>
-        <li><a href="#history">更新履歴</a></li>
-        <li><a href="#disclaimer">免責事項</a></li>
-        <li><a href="#contact">問い合わせ</a></li>
+        <li><a class="nav__reset-cookie"></a></li>
+        <li><a href="#history" class="nav__history"></a></li>
+        <li><a href="#disclaimer" class="nav__disclaimer"></a></li>
+        <li><a href="#contact" class="nav__contact"></a></li>
       </ul>
     </nav>
     <ul class="tabs"></ul>
@@ -83,28 +83,16 @@
       <canvas id="graph" width="990" height="1020"></canvas>
     </section>
     <section id="history">
-      <h2 class="header">更新履歴</h2>
+      <h2 class="header"></h2>
       <div class="row">
         <ul class="collection"></ul>
       </div>
     </section>
     <section id="disclaimer">
-      <h2 class="header">免責事項</h2>
-      <p>
-        このWebアプリケーションは個人が企画・制作したものです。各企業・団体とは無関係です。
-      </p>
-      <p>
-        このWebアプリケーションはCookieを利用してデータを保存しています。複数のブラウザでデータを共有することはできません。
-      </p>
+      <h2 class="header"></h2>
     </section>
     <section id="contact">
-      <h2 class="header">お問い合わせ</h2>
-      <p>
-        エラー等のお問い合わせについては下記Twitterアカウントまでお願いいたします。
-      </p>
-      <p>
-        Twitter：<a href="//twitter.com/wifeofvillon">@wifeofvillon<i class="material-icons tiny">open_in_new</i></a>
-      </p>
+      <h2 class="header"></h2>
     </section>
     <!--Import jQuery -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -113,6 +101,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <!-- Import Chart.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script type="text/javascript" src="./data/const.js"></script>
+    <script type="text/javascript" src="./data/text.js"></script>
+    <script type="text/javascript" src="./data/history.js"></script>
     <script type="text/javascript" src="./js/scoresheet.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
